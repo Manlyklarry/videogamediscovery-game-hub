@@ -11,6 +11,7 @@ import {
 import useGenres from "../hooks/useGenres";
 import getCroppedImageUrl from "../services/image-url";
 import { Genre } from "../hooks/useGenres";
+import genres from "../data/genres";
 
 interface Props {
   onSelectGenre: (genre: Genre) => void;
